@@ -1,0 +1,3 @@
+- Passer en propriété de game les joueurs
+- Une seule nouvelle propriété currentPlayer dans game
+- Passer cellArray en propriété de board

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Jeu de plateau</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+
+	<div class="page-container">
+		<div class="map">		
+		</div>
+
+		<div class="windowInfos">
+			<div class="playerName"></div>
+			<div class="flex">
+				<div class="playerSprite"></div>
+				<div class="weaponImage"></div>
+			</div>
+			<div class="healthbar"></div>
+			<div class="weaponInfos"></div>
+			<div class="flex-bottom">
+				<div class="endTurn">
+					<button>Fin de tour</button>
+				</div>
+				<div class="moveCount"></div>
+			</div>
+		</div>
+
+		<div class="fightWindow">
+
+			<div class="currentPlayerFightWindow">
+				<div class="row-infos">
+					<div class="c-fw-player fw-player"></div>
+					<div class="c-fw-weapon fw-weapon"></div>
+				</div>
+				<div class="row-infos">
+					<div class="c-fw-name"></div>
+				</div>
+				<div class="row-infos">
+					<div class="c-fw-healthbar fw-healthbar"></div>
+				</div>
+				<div class="row-infos">
+					<div class="c-fw-damages fw-damages">Votre armeikjfd,ijfd</div>
+				</div>
+				<div class="row-infos">
+					<button class="c-fw-attack fw-attack">Attaquer</button>
+					<button class="c-fw-defense fw-defense">Se défendre</button>
+				</div>			
+			</div>
+
+			<img class="fightIcon" src="img/fightIcon.png">
+			<h1 class="playerTurn"></h1>
+			<div class="otherPlayerFightWindow">
+				<div class="row-infos">
+					<div class="o-fw-player fw-player"></div>
+					<div class="o-fw-weapon fw-weapon"></div>
+				</div>
+				<div class="row-infos">
+					<div class="o-fw-name"></div>
+				</div>
+				<div class="row-infos">
+					<div class="o-fw-healthbar fw-healthbar"></div>
+				</div>
+				<div class="row-infos">
+					<div class="o-fw-damages fw-damages"></div>
+				</div>
+				<div class="row-infos">
+				</div>
+
+			</div>
+
+		</div>
+	</div>
+	<div class="button-container">
+		<div class="startGame"></div>
+	</div>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/global.js"></script>	
+	<script src="js/board.js"></script>
+	<script src="js/weapons.js"></script>
+	<script src="js/players.js"></script>
+	<script src="js/game.js"></script>
+	<script src="js/app.js"></script>
+</body>
+</html>

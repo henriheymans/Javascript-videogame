@@ -1,0 +1,7 @@
+- Rajouté variable otherPlayer dans game.js : Le joueur qui ne joue pas est enregistré dans cette variable. Dans game.startGame()
+
+- Ajout de la méthode Players.checkFight pour détecter si l'ennemi est à côté et démarrer le combat
+
+- Ajout de la méthode Players.startFight pour démarrer le combat
+
+- CSS de la fenêtre de combat
